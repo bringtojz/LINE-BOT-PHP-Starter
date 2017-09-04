@@ -1,3 +1,12 @@
+curl -X GET \
+-H 'Authorization: Bearer {ENTER_ACCESS_TOKEN}' \
+https://api.line.me/v1/oauth/verify
+
+{
+  "channelId":1350031035,
+  "mid":"ub00b9ac609e51f4707cd86d8e797491b"
+}
+
 <?php
 $access_token = '1OiFBTnqZXbgr2ve3DDNpm0txSkoO+j/1IQEwRuB0ISj8QI2xgvDGsRMaA7aj0XqgZ0vGhuGsAuc8MTmBnjhLr3tAYNVtsMfsavMOjQhzXwidI3Z3/fG9vLVcmRTx/1Uwh0g8taHhZpXgfe0+idoAgdB04t89/1O/w1cDnyilFU=';
 
